@@ -1,0 +1,29 @@
+﻿<Обработчикизображений>
+	<version>1</version>
+	<useopen>false</useopen>
+	<source>D:\!!!work\зно_онлайн\test\geo\img\test2010main1\big</source>
+	<open>false</open>
+	<saveinsame>false</saveinsame>
+	<dest>D:\!!!work\зно_онлайн\test\geo\img\test2010main1</dest>
+	<jpeg>true</jpeg>
+	<psd>false</psd>
+	<tiff>false</tiff>
+	<lzw>false</lzw>
+	<converticc>false</converticc>
+	<q>5</q>
+	<max>true</max>
+	<jpegresize>true</jpegresize>
+	<jpegw>500</jpegw>
+	<jpegh>250</jpegh>
+	<psdresize>false</psdresize>
+	<psdw></psdw>
+	<psdh></psdh>
+	<tiffresize>false</tiffresize>
+	<tiffw></tiffw>
+	<tiffh></tiffh>
+	<runaction>false</runaction>
+	<actionset>Операции по умолчанию</actionset>
+	<action>Виньетка (выделение)</action>
+	<info></info>
+	<icc>true</icc>
+</Обработчикизображений>

@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+
+div.ZnoOuterTableView, div.ZnoResultTableView, th.ZnoResultTitleView
+{
+ background-color:#f7d1b4 !important;
+}

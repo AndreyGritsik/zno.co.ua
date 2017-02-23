@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/*видимость элементов*/
+.ZnoTvirView 
+{
+ display:table-cell;
+}
+
+.ZnoVariantView
+{
+display:none;
+}
+.ZnoVariantConnectView
+{
+display:none;
+}
+.ZnoVariantNumberView
+{
+display:none;
+}
+
+.ZnoVariantFreeAnswerView
+{
+display:none;
+}
+
+.ZnoResultTableView
+{
+ display:none;
+}

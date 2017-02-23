@@ -1,0 +1,337 @@
+@charset "utf-8";
+
+
+
+
+
+/*¬нутренние элементы  теста */
+
+/*€чейка с номером задани€ */
+
+
+div.ZnoOuterTableRowTaskView{
+	min-height:150px;
+}
+
+div.ZnoTaskNumberView
+{
+ text-align:left;
+} 
+
+/* счетчик  номера задани€ */
+span.TaskNumberView
+{
+font-size: larger;
+}
+
+/* ячейка с названием теста */
+div.ZnoTestNameView
+{
+ text-align:right;
+ font-size:larger;
+ color:#CC0033;
+ }
+ 
+ span.blueNumber{
+	color:#0000FF;
+	font-size: larger;
+ }
+ 
+ div.bigText{
+	font-size: larger;
+	color:#000000;
+ }
+ 
+ div.extendedRow {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 5px;
+	margin-top: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+ }
+ 
+ div .PassAnswerView , div .ResumeTestView, div .StopTestView{
+ margin-bottom: 10px;
+ }
+ 
+ 
+#TaskTableHolder{
+	margin-bottom: 5px;
+ }
+ 
+ table .questionColumn, table .answerColumn{
+	margin-bottom: 0px;
+ }
+ 
+ select.selectTaskNumberView, select.answerSignView{
+	width: auto;
+ }
+ 
+ td.ZnoGivenAnswersView
+{
+ text-align:left;
+ border: 1px dotted #333333;
+ width:40%;
+}
+/*счетчик ответов */
+span.GivenAnswersView
+{
+ color:#0000FF;
+ font-size: larger;
+}
+/*—четчик оставшегос€ времени */
+span.TimeLeftView
+{
+  color:#0000FF;
+ font-size: larger;
+}
+
+/*Ѕлок с картинкой тестового задани€*/
+div.TaskView
+{
+width:100%;/*500px;*/
+/*height:270px;*/
+cursor:url("http://math.fizika.kiev.ua/plugins/content/mavikthumbnails/highslide/graphics/zoomin.cur"), pointer !important;
+background-color:#cccccc;
+text-align:center;
+
+}
+#divAnsDiv
+{
+ border: 1px dotted #CCCCCC;
+ background-color:#FFFFFF;
+ height: 30px;
+ width:auto;
+}
+#helperDiv
+{
+ width:15%;
+ text-align:center;
+}
+#freeAnswerForm
+{
+}
+.context
+{
+ font-size:14px;
+ background-color:#F2F2ED;
+ border: 1px solid #111111;
+ position:absolute;
+ clear:both;
+ padding: 2px;
+}
+div.calculateDiv
+{
+ border:1px dotted #000000;
+}
+.numberAnswerView
+{
+ width:1em;
+}
+th.ZnoResultTitleView
+{
+ text-align:center;
+ font-size:larger;
+}
+
+td.ZnoResultPassedAnswerView,td.ZnoResultPoorAnswerView
+{
+ vertical-align:top;
+}
+.ResultRowView
+{
+ background-color:#eeeeee;
+}
+
+img.taskImgClass
+{
+	width:50%;
+}
+
+@media (max-width: 500px) {
+    img.taskImgClass
+	{
+		width:100%;
+	}
+}
+
+div.fullsize-image img.taskImgClass{
+	width:80%;
+}
+
+@media (max-width: 600px) {
+    div.fullsize-image img.taskImgClass{
+		width:100%;
+	}
+}
+
+div #TaskTip,#BigTaskTip
+{
+	background-color:#cccccc;
+	text-align:center;
+	color: #0000FF;
+}
+
+p.imageTip{
+	color:#0000ff;
+}
+
+/*zno online elements styles*/
+
+img { border: 0 none; }
+
+div #AnswerVariantContainer{
+	margin: 0px;
+}
+
+div.ZnoOuterTableRowVariantView
+{
+ width:100%;
+ background-color:#d9edf7;
+ padding: 0px;
+}
+div.answerItemStyle
+{
+ float:left;
+ text-align:center;
+}
+div.TextViewCell
+{
+ text-align:center;
+ width:100%;
+ clear:both;
+ font-size: larger;
+ color: red;
+ background-color: yellow;
+}
+a div.TextViewCell
+{
+ color: red;
+ background-color: yellow;
+}
+div.TextEnterCell
+{
+ text-align:center;
+ width:100%;
+ clear:both;
+ font-size: larger;
+ color: black;
+ }
+div.ZnoVariantNumberView
+{
+ text-align:center;
+ width:100%;
+ clear:both;
+ font-size: larger;
+ color: black;
+ }
+ td.ZnoResultTitleView
+{
+ text-align:center;
+ font-size:larger;
+ color:#CC0033;
+}
+td.ZnoResultTotalAnswerNumberView,td.ZnoResultPassedNumberView,td.ZnoResultCorrectAnswerNumberView,td.ZnoResultTimeNumberView
+{
+color:#0000FF;
+font-size: larger;
+}
+td.ZnoResultGradeNumberView
+{
+color: #CC0000;
+font-size: larger;
+font-weight:bold;
+}
+td.ZnoResultPassedAnswerDetailView, td.ZnoResultPoorAnswerDetailView
+{
+color:#0000FF;
+}
+td.ZnoResultPassedAnswerView,td.ZnoResultPoorAnswerView
+{
+ vertical-align:top;
+}
+td.ZnoResultTotalAnswerView,td.ZnoResultPassedView,td.ZnoResultCorrectAnswerView,td.ZnoResultGradeView,td.ZnoResultTimeView,td.ZnoResultPoorAnswerView,td.ZnoResultPassedAnswerView
+{
+ text-align:left;
+}
+table.taskTable
+{
+ width:100%;
+ font-size: 110%;
+ background-color:#ffffff;
+ text-align:left;
+ 
+}
+
+/*table.taskTable tr, table.taskTable td
+{
+ border: 3px solid #ffffff;
+}*/
+
+tr.taskQuestion  td
+{
+ width:100%;
+ color:#0000ff;
+ /*border: 1px solid #000000;*/
+}
+
+tr.taskQuestion  i
+{
+	color:#000000;
+}
+
+td.vertVariantLetter
+{
+ /*width:10%;*/
+ /*border: 1px solid #000000;*/
+ border: 3px solid #ffffff;
+ vertical-align:top;
+}
+
+td.vertVariantAnswer
+{
+ width:95%;
+ border: 3px solid #ffffff;
+ /*border: 1px solid #000000;*/
+}
+
+td.vertVariantAnswer i
+{
+	color:#0000ff;
+}
+
+tr.horVariantLetter td
+{
+	text-align:center;
+	border: 1px solid #000000;
+}
+
+tr.horVariantAnswer td
+{
+	border: 1px solid #000000;
+	text-align:center;
+}
+td.questionColumnNumber, td.answerColumnNumber
+{
+ vertical-align:top;
+ border: 3px solid #ffffff;
+}
+td.questionColumnText, td.answerColumnText
+{
+ width:90%;
+ border: 3px solid #ffffff;
+}
+div.answerItemStyle
+{
+	float:left;
+	text-align:center;
+}
+
+div #testHolder{
+	max-width:1000px;
+}
+
+
+ 
+ 

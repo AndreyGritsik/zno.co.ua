@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+/* Внешняя рамка теста  */
+table.ZnoOuterTableView
+{
+ border: 1px dotted #999999;
+ width: 500px;
+ background-color: #FFCCFF;
+}
+
+
+/*Внутренние элементы  теста */
+
+/*Строка с колличеством заданий и названием теста */
+table.ZnoInnerTableHeaderView
+{
+ width:100%;
+ font-size:larger;
+}
+
+/*ячейка с номером задания */
+
+td.ZnoTaskNumberView
+{
+ text-align:left;
+ border: 1px dotted #333333;
+ width:40%;
+} 
+
+/* счетчик  номера задания */
+span.TaskNumberView
+{
+color:#0000FF;
+font-size: larger;
+}
+
+/* Ячейка с названием теста */
+td.ZnoTestNameView
+{
+ text-align:right;
+ font-size:larger;
+ color:#CC0033;
+ }
+ 
+ /* Строка с колличеством данных ответов и оставшимся временем */
+ 
+table.ZnoInnerTableCounterView
+{
+ width:100%;
+ font-size:larger;
+}
+
+/*Ячейка со счетчиком колличества ответов */
+td.ZnoGivenAnswersView
+{
+ text-align:left;
+ border: 1px dotted #333333;
+ width:40%;
+}
+/*счетчик ответов */
+span.GivenAnswersView
+{
+ color:#0000FF;
+ font-size: larger;
+}
+/*Ячейка со счетчиком времени */
+td.ZnoTimeLeftView
+{
+ text-align:center;
+ border: 1px dotted #333333;
+ width:60%;
+}
+/*Счетчик оставшегося времени */
+span.TimeLeftView
+{
+  color:#0000FF;
+ font-size: larger;
+}
+
+/*Блок с картинкой тестового задания*/
+div.TaskView
+{
+width:500px;
+height:250px;
+
+}
+/*Строка с вариантами ответов */
+table.ZnoInnerTableVariantView
+{
+ border: 1px dotted #333333;
+ width:100%;
+ font-size: larger;
+ /*display:none;*/
+}
+/*ячейка с вариантом "Пропустить" */
+td.ZnoVariantPassView
+{
+ /*border: 1px dotted #333333;*/
+ width: 10%;
+}
+/*ячейки с вариантами ответов */
+/*ZnoVariantView,#ZnoVariantA,#ZnoVariantB,#ZnoVariantC,#ZnoVariantD,#ZnoVariantE
+{
+ display:none;
+}*/
+/*ячейка с вариантом "Численный ответ"*/
+td.ZnoVariantNumberView
+{
+width:80%;
+}
+
+/*Ячейка с вариантом "Ответ в свободной форме"*/
+td.ZnoVariantFreeAnswerView
+{
+ width:70%;
+ border:1px dotted #333333;
+ 
+}
+
+/*Поле с ответом в свободной форме*/
+input.FreeAnswerTextView
+{
+ /*border:1px solid #00CC00;*/
+}
+
+/*строка с кнопками управления тестирование */
+table.ZnoInnerTableControlView
+{
+ width:100%;
+ font-size:larger;
+}
+/*Ячейка с кнопкой продолжения теста */
+td.ResumeTestView
+{
+ text-align:left;
+}
+/*Ячейка с кнопкой завершения теста*/
+td.StopTestView
+{
+ text-align:right;
+}
+#divAnsDiv
+{
+ border: 1px dotted #CCCCCC;
+ background-color:#FFFFFF;
+ height: 30px;
+ width:auto;
+}
+#helperDiv
+{
+ width:15%;
+ text-align:center;
+}
+#freeAnswerForm
+{
+}
+.context
+{
+ font-size:14px;
+ background-color:#F2F2ED;
+ border: 1px solid #111111;
+ position:absolute;
+ clear:both;
+ padding: 2px;
+}
+div.calculateDiv
+{
+ border:1px dotted #000000;
+}
+ZnoVariantViewVisible
+{
+}

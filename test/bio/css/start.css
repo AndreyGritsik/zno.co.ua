@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* Видимость элементов в начале тестирования*/
+.ZnoInnerTableVariantView
+{
+ display:none;
+}
+.StopTestView,.PassAnswerView
+{
+ display:none;
+}
+.ZnoGivenAnswersView
+{
+ display:none;
+}
+.ZnoResultTableView
+{
+ display:none;
+}
